@@ -14,7 +14,8 @@
 		F27EC9A026837DBA00443C1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F27EC99F26837DBA00443C1D /* LaunchScreen.storyboard */; };
 		F27EC9A726839DC000443C1D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27EC9A626839DC000443C1D /* Extensions.swift */; };
 		F27EC9AB26839F3C00443C1D /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27EC9AA26839F3C00443C1D /* PostView.swift */; };
-		F27EC9AF2683B73D00443C1D /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27EC9AE2683B73D00443C1D /* FeedView.swift */; };
+		F27EC9B22683BD5900443C1D /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27EC9B12683BD5900443C1D /* PostModel.swift */; };
+		F27EC9B42683F2A300443C1D /* Feedview.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27EC9B32683F2A300443C1D /* Feedview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +28,8 @@
 		F27EC9A1268380A100443C1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		F27EC9A626839DC000443C1D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		F27EC9AA26839F3C00443C1D /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
-		F27EC9AE2683B73D00443C1D /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		F27EC9B12683BD5900443C1D /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		F27EC9B32683F2A300443C1D /* Feedview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feedview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +62,9 @@
 		F27EC990268376F500443C1D /* InstaDog */ = {
 			isa = PBXGroup;
 			children = (
-				F27EC9A526839DA900443C1D /* Helpers */,
+				F27EC9B02683BD2500443C1D /* Model */,
 				F27EC9A22683878D00443C1D /* Views */,
+				F27EC9A526839DA900443C1D /* Helpers */,
 				F27EC9A1268380A100443C1D /* Info.plist */,
 				F27EC995268376F700443C1D /* Assets.xcassets */,
 				F27EC997268376F700443C1D /* Preview Content */,
@@ -92,7 +95,6 @@
 			isa = PBXGroup;
 			children = (
 				F27EC993268376F500443C1D /* ContentView.swift */,
-				F27EC9AE2683B73D00443C1D /* FeedView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -101,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				F27EC9AA26839F3C00443C1D /* PostView.swift */,
+				F27EC9B32683F2A300443C1D /* Feedview.swift */,
 			);
 			path = SubViews;
 			sourceTree = "<group>";
@@ -111,6 +114,14 @@
 				F27EC9A626839DC000443C1D /* Extensions.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		F27EC9B02683BD2500443C1D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F27EC9B12683BD5900443C1D /* PostModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,7 +195,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F27EC9AF2683B73D00443C1D /* FeedView.swift in Sources */,
+				F27EC9B42683F2A300443C1D /* Feedview.swift in Sources */,
+				F27EC9B22683BD5900443C1D /* PostModel.swift in Sources */,
 				F27EC994268376F500443C1D /* ContentView.swift in Sources */,
 				F27EC9A726839DC000443C1D /* Extensions.swift in Sources */,
 				F27EC9AB26839F3C00443C1D /* PostView.swift in Sources */,

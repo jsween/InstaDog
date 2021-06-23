@@ -8,12 +8,13 @@
 import SwiftUI
 
 struct FeedView: View {
+    let post = PostModel(postId: "", userId: "", username: "Johnny", caption: "Test caption goes here", dateCreated: Date(), likeCount: 44, likedByUser: true)
     var body: some View {
         ScrollView(.vertical, showsIndicators: false) {
-            PostView()
-            PostView()
-            PostView()
-            PostView()
+            PostView(post: post)
+            PostView(post: post)
+            PostView(post: post)
+            PostView(post: post)
         }
         .navigationBarTitle("FEED VIEW")
         .navigationBarTitleDisplayMode(.inline)
