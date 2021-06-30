@@ -42,8 +42,14 @@ struct PostView: View {
             HStack(alignment: .center, spacing: 20) {
                 Image(systemName: "heart")
                     .font(.title3)
-                Image(systemName: "bubble.right")
-                    .font(.title3)
+                
+                // MARK: - COMMENT ICON
+
+                NavigationLink(destination: CommentsView()) {
+                    Image(systemName: "bubble.right")
+                        .font(.title3)
+                        .foregroundColor(.primary)
+                }
                 Image(systemName: "paperplane")
                     .font(.title3)
                 Spacer()

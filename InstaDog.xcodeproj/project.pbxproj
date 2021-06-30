@@ -16,6 +16,10 @@
 		F27EC9AB26839F3C00443C1D /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27EC9AA26839F3C00443C1D /* PostView.swift */; };
 		F27EC9B22683BD5900443C1D /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27EC9B12683BD5900443C1D /* PostModel.swift */; };
 		F27EC9B42683F2A300443C1D /* Feedview.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27EC9B32683F2A300443C1D /* Feedview.swift */; };
+		F27EC9B62683F2DE00443C1D /* PostArrayObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27EC9B52683F2DE00443C1D /* PostArrayObject.swift */; };
+		F27EC9B82684F08F00443C1D /* CommentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27EC9B72684F08F00443C1D /* CommentsView.swift */; };
+		F27EC9BA2684F75500443C1D /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27EC9B92684F75500443C1D /* MessageView.swift */; };
+		F27EC9BC2684F88400443C1D /* CommentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27EC9BB2684F88400443C1D /* CommentModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,10 @@
 		F27EC9AA26839F3C00443C1D /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
 		F27EC9B12683BD5900443C1D /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
 		F27EC9B32683F2A300443C1D /* Feedview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feedview.swift; sourceTree = "<group>"; };
+		F27EC9B52683F2DE00443C1D /* PostArrayObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostArrayObject.swift; sourceTree = "<group>"; };
+		F27EC9B72684F08F00443C1D /* CommentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsView.swift; sourceTree = "<group>"; };
+		F27EC9B92684F75500443C1D /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		F27EC9BB2684F88400443C1D /* CommentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +103,8 @@
 			isa = PBXGroup;
 			children = (
 				F27EC993268376F500443C1D /* ContentView.swift */,
+				F27EC9B32683F2A300443C1D /* Feedview.swift */,
+				F27EC9B72684F08F00443C1D /* CommentsView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -103,7 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				F27EC9AA26839F3C00443C1D /* PostView.swift */,
-				F27EC9B32683F2A300443C1D /* Feedview.swift */,
+				F27EC9B92684F75500443C1D /* MessageView.swift */,
 			);
 			path = SubViews;
 			sourceTree = "<group>";
@@ -120,6 +130,8 @@
 			isa = PBXGroup;
 			children = (
 				F27EC9B12683BD5900443C1D /* PostModel.swift */,
+				F27EC9B52683F2DE00443C1D /* PostArrayObject.swift */,
+				F27EC9BB2684F88400443C1D /* CommentModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -198,8 +210,12 @@
 				F27EC9B42683F2A300443C1D /* Feedview.swift in Sources */,
 				F27EC9B22683BD5900443C1D /* PostModel.swift in Sources */,
 				F27EC994268376F500443C1D /* ContentView.swift in Sources */,
+				F27EC9BA2684F75500443C1D /* MessageView.swift in Sources */,
 				F27EC9A726839DC000443C1D /* Extensions.swift in Sources */,
+				F27EC9B62683F2DE00443C1D /* PostArrayObject.swift in Sources */,
 				F27EC9AB26839F3C00443C1D /* PostView.swift in Sources */,
+				F27EC9BC2684F88400443C1D /* CommentModel.swift in Sources */,
+				F27EC9B82684F08F00443C1D /* CommentsView.swift in Sources */,
 				F27EC992268376F500443C1D /* InstaDogApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
