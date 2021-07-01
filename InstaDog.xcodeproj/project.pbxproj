@@ -24,6 +24,7 @@
 		F27EC9E5268CAD4300443C1D /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27EC9E4268CAD4300443C1D /* CarouselView.swift */; };
 		F27EC9E8268CBE0A00443C1D /* ImageGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27EC9E7268CBE0A00443C1D /* ImageGridView.swift */; };
 		F27EC9F2268E129200443C1D /* UploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27EC9F1268E129200443C1D /* UploadView.swift */; };
+		F27EC9F4268E179300443C1D /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27EC9F3268E179300443C1D /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		F27EC9E4268CAD4300443C1D /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
 		F27EC9E7268CBE0A00443C1D /* ImageGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGridView.swift; sourceTree = "<group>"; };
 		F27EC9F1268E129200443C1D /* UploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadView.swift; sourceTree = "<group>"; };
+		F27EC9F3268E179300443C1D /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 				F27EC9B92684F75500443C1D /* MessageView.swift */,
 				F27EC9E4268CAD4300443C1D /* CarouselView.swift */,
 				F27EC9E7268CBE0A00443C1D /* ImageGridView.swift */,
+				F27EC9F3268E179300443C1D /* ImagePicker.swift */,
 			);
 			path = SubViews;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 				F27EC9BC2684F88400443C1D /* CommentModel.swift in Sources */,
 				F27EC9B82684F08F00443C1D /* CommentsView.swift in Sources */,
 				F27EC9F2268E129200443C1D /* UploadView.swift in Sources */,
+				F27EC9F4268E179300443C1D /* ImagePicker.swift in Sources */,
 				F27EC9E5268CAD4300443C1D /* CarouselView.swift in Sources */,
 				F27EC992268376F500443C1D /* InstaDogApp.swift in Sources */,
 			);
