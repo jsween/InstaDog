@@ -22,7 +22,7 @@ struct ContentView: View {
                 .tabItem {
                     Image(systemName: "magnifyingglass")
                 }
-            Text("Screen3")
+            UploadView()
                 .tabItem {
                     Image(systemName: "square.and.arrow.up.fill")
                 }
