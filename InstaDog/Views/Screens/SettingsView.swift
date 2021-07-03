@@ -33,8 +33,14 @@ struct SettingsView: View {
                 // MARK: - Section 2: Profile
                 
                 GroupBox(label: SettingsLabelView(labelText: "Profile", labelImage: "person.fill")) {
-                    SettingsRowView(leftIcon: "pencil", text: "Display Name", color: Color.MyTheme.purpleColor)
-                    SettingsRowView(leftIcon: "text.quote", text: "Bio", color: Color.MyTheme.purpleColor)
+                    
+                    
+                    NavigationLink(destination: SettingsEditTextView(submissionText: "CurrentDisplayName", title: "Display Name", description: "Edit your display name, as seen by other users and your posts.", placeholder: "Your Display Name")) {
+                        SettingsRowView(leftIcon: "pencil", text: "Display Name", color: Color.MyTheme.purpleColor)
+                    }
+                    NavigationLink(destination: SettingsEditTextView(submissionText: "Current Bio is here", title: "Bio", description: "Profile Bio: Share things about yourself to other InstaDog users", placeholder: "Enter Bio")) {
+                        SettingsRowView(leftIcon: "text.quote", text: "Bio", color: Color.MyTheme.purpleColor)
+                    }
                     SettingsRowView(leftIcon: "pencil", text: "Profile Picture", color: Color.MyTheme.purpleColor)
                     SettingsRowView(leftIcon: "figure.walk", text: "Sign out", color: Color.MyTheme.purpleColor)
                 }

@@ -12,6 +12,7 @@
 		F26BB9D226911CCC00141E6A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26BB9D126911CCC00141E6A /* SettingsView.swift */; };
 		F26BB9D42691205C00141E6A /* SettingsLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26BB9D32691205C00141E6A /* SettingsLabelView.swift */; };
 		F26BB9D62691228100141E6A /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26BB9D52691228100141E6A /* SettingsRowView.swift */; };
+		F26BB9D8269127E000141E6A /* SettingsEditTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26BB9D7269127E000141E6A /* SettingsEditTextView.swift */; };
 		F27EC992268376F500443C1D /* InstaDogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27EC991268376F500443C1D /* InstaDogApp.swift */; };
 		F27EC994268376F500443C1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27EC993268376F500443C1D /* ContentView.swift */; };
 		F27EC996268376F700443C1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F27EC995268376F700443C1D /* Assets.xcassets */; };
@@ -39,6 +40,7 @@
 		F26BB9D126911CCC00141E6A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		F26BB9D32691205C00141E6A /* SettingsLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsLabelView.swift; sourceTree = "<group>"; };
 		F26BB9D52691228100141E6A /* SettingsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRowView.swift; sourceTree = "<group>"; };
+		F26BB9D7269127E000141E6A /* SettingsEditTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsEditTextView.swift; sourceTree = "<group>"; };
 		F27EC98E268376F500443C1D /* InstaDog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaDog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F27EC991268376F500443C1D /* InstaDogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaDogApp.swift; sourceTree = "<group>"; };
 		F27EC993268376F500443C1D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 				F27EC9F5268E457600443C1D /* PostImageView.swift */,
 				F26BB9CD2691063D00141E6A /* ProfileView.swift */,
 				F26BB9D126911CCC00141E6A /* SettingsView.swift */,
+				F26BB9D7269127E000141E6A /* SettingsEditTextView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 				F27EC9E5268CAD4300443C1D /* CarouselView.swift in Sources */,
 				F27EC992268376F500443C1D /* InstaDogApp.swift in Sources */,
 				F26BB9D226911CCC00141E6A /* SettingsView.swift in Sources */,
+				F26BB9D8269127E000141E6A /* SettingsEditTextView.swift in Sources */,
 				F26BB9D62691228100141E6A /* SettingsRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
