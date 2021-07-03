@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F26BB9CE2691063D00141E6A /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26BB9CD2691063D00141E6A /* ProfileView.swift */; };
+		F26BB9D026910CFF00141E6A /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26BB9CF26910CFF00141E6A /* ProfileHeaderView.swift */; };
 		F27EC992268376F500443C1D /* InstaDogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27EC991268376F500443C1D /* InstaDogApp.swift */; };
 		F27EC994268376F500443C1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27EC993268376F500443C1D /* ContentView.swift */; };
 		F27EC996268376F700443C1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F27EC995268376F700443C1D /* Assets.xcassets */; };
@@ -29,6 +31,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F26BB9CD2691063D00141E6A /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		F26BB9CF26910CFF00141E6A /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
 		F27EC98E268376F500443C1D /* InstaDog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaDog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F27EC991268376F500443C1D /* InstaDogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaDogApp.swift; sourceTree = "<group>"; };
 		F27EC993268376F500443C1D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -120,6 +124,7 @@
 				F27EC9E2268CAC9800443C1D /* BrowseView.swift */,
 				F27EC9F1268E129200443C1D /* UploadView.swift */,
 				F27EC9F5268E457600443C1D /* PostImageView.swift */,
+				F26BB9CD2691063D00141E6A /* ProfileView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -132,6 +137,7 @@
 				F27EC9E4268CAD4300443C1D /* CarouselView.swift */,
 				F27EC9E7268CBE0A00443C1D /* ImageGridView.swift */,
 				F27EC9F3268E179300443C1D /* ImagePicker.swift */,
+				F26BB9CF26910CFF00141E6A /* ProfileHeaderView.swift */,
 			);
 			path = SubViews;
 			sourceTree = "<group>";
@@ -234,9 +240,11 @@
 				F27EC9B62683F2DE00443C1D /* PostArrayObject.swift in Sources */,
 				F27EC9E8268CBE0A00443C1D /* ImageGridView.swift in Sources */,
 				F27EC9AB26839F3C00443C1D /* PostView.swift in Sources */,
+				F26BB9CE2691063D00141E6A /* ProfileView.swift in Sources */,
 				F27EC9E3268CAC9800443C1D /* BrowseView.swift in Sources */,
 				F27EC9BC2684F88400443C1D /* CommentModel.swift in Sources */,
 				F27EC9B82684F08F00443C1D /* CommentsView.swift in Sources */,
+				F26BB9D026910CFF00141E6A /* ProfileHeaderView.swift in Sources */,
 				F27EC9F2268E129200443C1D /* UploadView.swift in Sources */,
 				F27EC9F4268E179300443C1D /* ImagePicker.swift in Sources */,
 				F27EC9E5268CAD4300443C1D /* CarouselView.swift in Sources */,

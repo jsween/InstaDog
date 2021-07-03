@@ -19,17 +19,20 @@ struct ContentView: View {
             NavigationView {
                 BrowseView()
             }
-                .tabItem {
-                    Image(systemName: "magnifyingglass")
-                }
+            .tabItem {
+                Image(systemName: "magnifyingglass")
+            }
             UploadView()
                 .tabItem {
                     Image(systemName: "square.and.arrow.up.fill")
                 }
-            Text("Screen4")
-                .tabItem {
-                    Image(systemName: "person.fill")
-                }
+            NavigationView {
+                ProfileView(profileDisplayName: "My Profile", profileUserId: "", isMyProfile: true)
+            }
+            .tabItem {
+                Image(systemName: "person.fill")
+            }
+            
         }//: TabView
         .accentColor(Color.MyTheme.purpleColor)
     }
