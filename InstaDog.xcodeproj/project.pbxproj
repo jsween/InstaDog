@@ -25,6 +25,7 @@
 		F27EC9E8268CBE0A00443C1D /* ImageGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27EC9E7268CBE0A00443C1D /* ImageGridView.swift */; };
 		F27EC9F2268E129200443C1D /* UploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27EC9F1268E129200443C1D /* UploadView.swift */; };
 		F27EC9F4268E179300443C1D /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27EC9F3268E179300443C1D /* ImagePicker.swift */; };
+		F27EC9F6268E457600443C1D /* PostImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27EC9F5268E457600443C1D /* PostImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		F27EC9E7268CBE0A00443C1D /* ImageGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGridView.swift; sourceTree = "<group>"; };
 		F27EC9F1268E129200443C1D /* UploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadView.swift; sourceTree = "<group>"; };
 		F27EC9F3268E179300443C1D /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		F27EC9F5268E457600443C1D /* PostImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				F27EC9B72684F08F00443C1D /* CommentsView.swift */,
 				F27EC9E2268CAC9800443C1D /* BrowseView.swift */,
 				F27EC9F1268E129200443C1D /* UploadView.swift */,
+				F27EC9F5268E457600443C1D /* PostImageView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -224,6 +227,7 @@
 			files = (
 				F27EC9B42683F2A300443C1D /* Feedview.swift in Sources */,
 				F27EC9B22683BD5900443C1D /* PostModel.swift in Sources */,
+				F27EC9F6268E457600443C1D /* PostImageView.swift in Sources */,
 				F27EC994268376F500443C1D /* ContentView.swift in Sources */,
 				F27EC9BA2684F75500443C1D /* MessageView.swift in Sources */,
 				F27EC9A726839DC000443C1D /* Extensions.swift in Sources */,
